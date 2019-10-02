@@ -1,0 +1,17 @@
+Locate the ruby documentation for methods File::path and File#path. How are they different?
+
+
+
+::path Returns the string representation of the path
+
+#path Returns the pathname used to create file as a string. Does not normalize the name.
+
+
+
+File::path is a class method, while File#path is an instance method.
+
+
+
+File#path https://ruby-doc.org/core-2.5.0/File.html#method-i-path
+
+File::path https://ruby-doc.org/core-2.5.0/File.html#method-c-path
